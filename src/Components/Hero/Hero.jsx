@@ -10,9 +10,9 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
-      <div className="hero-explore col-1 ">
-        <p>Explore the Features</p>
-        <img src={arrow_btn} alt="" />
+      <div className="hero-explore col-1">
+        <p className="text-center">Explore the Features</p>
+        <img src={arrow_btn} alt="car pics" />
       </div>
       <div className="hero-dot-play col-12">
         <ul className="hero-dots col-5 lg">

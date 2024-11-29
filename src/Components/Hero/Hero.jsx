@@ -6,12 +6,12 @@ import pause_icon from '../../assets/pause_icon.png';
 const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) => {
   return (
     <div className='hero col-8'>
-      <div className="hero-text col-1 col-lg-4">
+      <div className="hero-text col-12 col-lg-4">
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
-      <div className="hero-explore col-1">
-        <p className="text-center">Explore the Features</p>
+      <div className="hero-explore col-12 col-lg-5">
+        <p className="hero-explore-p col-9 col-lg-10">Explore the Features</p>
         <img src={arrow_btn} alt="car pics" />
       </div>
       <div className="hero-dot-play col-12">

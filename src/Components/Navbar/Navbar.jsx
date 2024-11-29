@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='nav col-10 col-md-9 col-lg-11'> 
-      <div className="nav-logo col-8">EV-olution</div>
+      <div className="nav-logo col-8 col-lg-7">EV-olution</div>
       <ul className="nav-menu col-5 col-md-4 col-lg-2">
         <li>Home</li>
         <li >Explore</li>

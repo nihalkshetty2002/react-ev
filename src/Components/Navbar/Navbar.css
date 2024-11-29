@@ -1,0 +1,45 @@
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    color: whitesmoke;
+}
+.nav-logo
+{
+    font-family: Poppins;
+    font-size:42px ;
+    font-weight: 200;
+}
+.nav-menu
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* font-size: 18px; */
+    gap: 40px;
+   
+
+}
+
+
+.nav-contact{
+    border-radius: 50px;
+    background: rgb(255, 162, 0);
+    color: black;
+    margin-bottom: 20px;
+}
+
+.nav-contact:hover{
+    background: rgb(207, 205, 205);
+    color: black;
+    border-radius: 50px;
+    transition: background-color 0.5s ease-in-out;   
+}
+
+.nav-menu li:hover{
+    border-radius: 50px;
+    color: rgb(255, 217, 1);
+    transition: background-color 0.5s ease-in-out;   
+}

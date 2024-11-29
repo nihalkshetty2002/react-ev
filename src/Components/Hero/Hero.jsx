@@ -6,7 +6,7 @@ import pause_icon from '../../assets/pause_icon.png';
 const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) => {
   return (
     <div className='hero col-8'>
-      <div className="hero-text col-1">
+      <div className="hero-text col-1 col-lg-4">
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
@@ -20,9 +20,9 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
           <li onClick={() => setHeroCount(1)} className={heroCount===1? "hero-dot orange" : "hero-dot"}></li>
           <li onClick={() => setHeroCount(2)} className={heroCount===2? "hero-dot orange" : "hero-dot"}></li>
         </ul>
-        <div  className="hero-play col-6">
+        <div  className="hero-play col-6 col-lg-3">
           <img onClick={() => setPlayStatus(!playStatus)} src={playStatus?pause_icon:play_icon} alt="Play/Pause" />
-        <p>See the video</p>
+        <p className="hero-play-p col-lg-6">See the video</p>
         </div>
       </div>
     </div>

@@ -1,10 +1,7 @@
 # React-ev-webpage
-# react-ev-page
-
- 
-# React EV
-
 React EV is a visually dynamic, interactive, and responsive web application built using React.js. This project showcases modern web development practices with seamless media integration and a responsive UI/UX. 
+
+## Screen Shots
 
 ## Features
 
